@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class CreditLine {
   
   private String id;
-  
+  private String idcustomer;
   private String lineNumber;
   private CreditlinesType creditlinesType;
   private List<Movement> movements;
